@@ -1,19 +1,15 @@
-# Boot animation
-PRODUCT_COPY_FILES += \
-vendor/eos/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
-
-# Inherit some common EOS stuff
-$(call inherit-product, vendor/eos/config/common_full_phone.mk)
-
-# Enhanced NFC
-$(call inherit-product, vendor/eos/config/nfc_enhanced.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/sony/yuga/full_yuga.mk)
 
+# Inherit some common CM stuff
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+
+# Enhanced NFC
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := yuga
-PRODUCT_NAME := eos_yuga
+PRODUCT_NAME := cm_yuga
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia Z
 PRODUCT_MANUFACTURER := Sony
