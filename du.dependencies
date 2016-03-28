@@ -1,0 +1,30 @@
+[
+  {
+    "remote": "github",
+    "repository": "SuperHanss/android_device_sony_fusion3-common",
+    "target_path": "device/sony/fusion3-common",
+    "branch": "m-caf"
+  },
+  {
+    "remote": "github",
+    "repository": "SuperHanss/android_kernel_sony_apq8064",
+    "target_path": "kernel/sony/apq8064",
+    "branch": "m-caf"
+  },
+  {
+    "remote": "github",
+    "repository": "SuperHanss/proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "branch": "m-caf"
+  },
+  {
+    "repository": "DirtyUnicorns/android_external_stlport",
+    "target_path": "external/stlport",
+    "branch": "m-caf"
+  },
+  {
+    "repository": "DirtyUnicorns/android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "branch": "m-caf"
+  }
+]
