@@ -39,9 +39,6 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
 BOARD_HARDWARE_CLASS += device/sony/yuga/cmhw
 
-# Healthd
-BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
-
 # TWRP
 TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
